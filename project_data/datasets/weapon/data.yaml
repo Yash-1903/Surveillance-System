@@ -1,0 +1,6 @@
+path: C:\Users\Yash\OneDrive\Desktop\project-smart-surv\project\project_data\datasets\weapon  # Dataset root directory
+train: train/images  # Train images relative to 'path'
+val: val/images      # Val images relative to 'path'
+
+nc: 3  # Number of classes
+names: ['pistol', 'rifle', 'knife']    # Class names
