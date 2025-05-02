@@ -20,7 +20,7 @@ class AccidentDetector(BaseDetector):
             # Custom accident classes
             self.accident_classes = {
                 0: 'accident',
-                1: 'collision'
+                1: 'non-accident',
             }
             print(f"Loaded accident detection model successfully")
             print(f"Available classes: {self.accident_classes}")

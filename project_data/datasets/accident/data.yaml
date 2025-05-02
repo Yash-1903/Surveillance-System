@@ -3,4 +3,4 @@ train: train/images  # Train images relative to 'path'
 val: val/images      # Val images relative to 'path'
 
 nc: 2  # Number of classes
-names: ['accident', 'collision']    # Class names
+names: ['accident', 'non-accident']    # Class names

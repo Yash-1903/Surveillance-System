@@ -2,5 +2,5 @@ path: C:\Users\Yash\OneDrive\Desktop\project-smart-surv\project\project_data\dat
 train: train/images  # Train images relative to 'path'
 val: val/images      # Val images relative to 'path'
 
-nc: 3  # Number of classes
-names: ['pistol', 'rifle', 'knife']    # Class names
+nc: 6  # Number of classes
+names: ['pistol', 'rifle', 'knife', 'bazooka', 'sniper', 'shotgun']    # Class names

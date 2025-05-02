@@ -12,6 +12,11 @@ class FireDetector(BaseDetector):
             model_path = self.load_model(model_path, 'fire_detection')
             self.model = YOLO(model_path)
             print(f"Loaded fire detection model: {model_path}")
+            # Custom fire_smoke classes
+            self.fire_classes = {
+                0: 'fire',
+                1: 'smoke',
+            }
         except Exception as e:
             print(f"Error loading fire detection model: {str(e)}")
             self.model = None

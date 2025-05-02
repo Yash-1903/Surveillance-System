@@ -2,7 +2,7 @@ task: detect
 mode: train
 model: yolov8n.pt
 data: C:\Users\Yash\OneDrive\Desktop\project-smart-surv\project\project_data\datasets\fire\data.yaml
-epochs: 10
+epochs: 40
 patience: 20
 batch: 32
 imgsz: 640

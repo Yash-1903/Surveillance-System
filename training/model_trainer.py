@@ -20,7 +20,7 @@ class YOLOTrainer:
         )
         self.logger = logging.getLogger(__name__)
     
-    def train(self, epochs=10, batch_size=32, patience=20):
+    def train(self, epochs=30, batch_size=32, patience=200):
         """Train the YOLO model"""
         try:
             # Initialize model

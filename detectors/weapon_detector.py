@@ -7,7 +7,7 @@ import os
 from .base_detector import BaseDetector
 
 class WeaponDetector(BaseDetector):
-    def __init__(self, model_path='models/weapon_detection_trained.pt', confidence=0.1):
+    def __init__(self, model_path='models/weapon_detection_trained.pt', confidence=0.6):
         super().__init__()
         try:
             # Check if model exists
@@ -21,7 +21,10 @@ class WeaponDetector(BaseDetector):
             self.weapon_classes = {
                 0: 'pistol',
                 1: 'rifle',
-                2: 'knife'
+                2: 'knife',
+                3: 'bazooka',
+                4: 'sniper',
+                5: 'shotgun'
             }
             print(f"Loaded weapon detection model successfully")
             print(f"Available classes: {self.weapon_classes}")

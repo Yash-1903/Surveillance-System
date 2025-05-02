@@ -32,8 +32,8 @@ def run_pipeline(base_path='project_data'):
         logger.info("\nPreparing datasets...")
         datasets = {
             'fire': ['fire', 'smoke'],
-            'weapon': ['pistol', 'rifle', 'knife'],
-            'accident': ['accident', 'collision']
+            'weapon': ['pistol', 'rifle', 'knife','bazooka','sniper','shotgun'],
+            'accident': ['accident', 'non-accident'],
         }
         
         for dataset_name, classes in datasets.items():
