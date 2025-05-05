@@ -51,9 +51,12 @@ python main.py
   - `email_service.py`: Email notification service
 
 ## Output 
-![Screenshot 2025-05-06 012604](https://github.com/user-attachments/assets/a26b3372-b675-44d5-b4c9-a5b06a76e53d)
-![Screenshot 2025-05-06 013839](https://github.com/user-attachments/assets/71cdddee-aedc-4b98-8690-0e11c9f27058)
-![Screenshot 2025-05-06 014202](https://github.com/user-attachments/assets/c057112b-a5c9-408d-9d44-63499f76b8d0)
+![Accident](https://github.com/user-attachments/assets/b8698521-6d08-4a39-8717-5aded8ec5ac6)
+![Fire](https://github.com/user-attachments/assets/7414f1d4-285a-490c-b664-8c6e6a566e3c)
+![Weapon](https://github.com/user-attachments/assets/759edb10-f5fb-4001-8d78-c3385dc10c83)
+
+
+
 
 
 
